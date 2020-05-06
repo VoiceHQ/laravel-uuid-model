@@ -1,0 +1,28 @@
+{
+    "name": "yarkhq/laravel-uuid-model",
+    "description": "A helper package for UUID enabled models in Laravel",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^7.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Cutts",
+            "email": "alex@yark.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YarkHQ\\LaravelUuidModel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YarkHQ\\LaravelUuidModel\\YarkUuidServiceProvider"
+            ]
+        }
+    }
+}
